@@ -20,17 +20,12 @@ export const navLinks = [
 export const socialLinks = [
   {
     label: 'Twitter',
-    url: 'https://twitter.com/hamishMW',
+    url: 'https://twitter.com/ItsFILIP4EVER',
     icon: 'twitter',
   },
   {
-    label: 'Figma',
-    url: 'https://www.figma.com/@Hamish',
-    icon: 'figma',
-  },
-  {
-    label: 'Github',
-    url: 'https://github.com/HamishMW',
-    icon: 'github',
+    label: 'YouTube',
+    url: 'https://www.youtube.com/channel/UCmDOgsmoaQuwQR2bHxiFO0Q',
+    icon: 'youtube',
   },
 ];
