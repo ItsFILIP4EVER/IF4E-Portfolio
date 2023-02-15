@@ -18,7 +18,7 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-const disciplines = ['Developer', 'Prototyper', 'Animator', 'Illustrator', 'Modder'];
+const disciplines = ['Moderator', 'Editor', 'Streamer'];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
@@ -84,8 +84,8 @@ export const Home = () => {
         visible={visibleSections.includes(projectOne.current)}
         index={1}
         title="Waffle"
-        description="Designing a platform to help educators build better online courseware"
-        buttonText="View project"
+        description="Moderator for Waffle on YouTube and manager for his discord server"
+        buttonText="View Waffle on Youtube!"
         buttonLink="/projects/smart-sparrow"
         model={{
           type: 'laptop',
