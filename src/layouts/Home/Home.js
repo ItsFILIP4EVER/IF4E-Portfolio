@@ -86,7 +86,7 @@ export const Home = () => {
         title="Waffle"
         description="Moderator for Waffle on YouTube and manager for his discord server"
         buttonText="View Waffle on Youtube!"
-        buttonLink="/projects/smart-sparrow"
+        buttonLink="https://www.youtube.com/@WaffleXD"
         model={{
           type: 'laptop',
           alt: 'Smart Sparrow lesson builder',
